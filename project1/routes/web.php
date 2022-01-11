@@ -48,6 +48,9 @@ Route::get('/table', function () {
                 ->where('jam_keluar', '>=', $_GET['jam'])
                 ->where('day', '=', $_GET['day'])
                 ->first();
+                if (empty($users )) {
+                    return back();
+                }
             // dd($users);
             return view('welcome', [
                 'data' => $users
