@@ -38,26 +38,17 @@
             <a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
         </div>
         <div id="footer-bar" class="footer-bar-5">
-            <a href="{{ url('azure') }}/index-components.html"><i data-feather="heart" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="red2-dark"
-                    data-feather-bg="red2-fade-light"></i><span>Features</span></a>
-            <a href="{{ url('azure') }}/index-media.html"><i data-feather="image" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="green1-dark"
-                    data-feather-bg="green1-fade-light"></i><span>Media</span></a>
-            <a href="{{ url('azure') }}/index.html"><i data-feather="home" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
-            <a href="{{ url('azure') }}/index-pages.html" class="active-nav"><i data-feather="file"
-                    data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark"
-                    data-feather-bg="brown1-fade-light"></i><span>Pages</span></a>
-            <a href="{{ url('azure') }}/index-settings.html"><i data-feather="settings" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="gray2-dark"
-                    data-feather-bg="gray2-fade-light"></i><span>Settings</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=rpl"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>RPL</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkr"><i data-feather="image" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>TKR</span></a>
+            <a href="/home" class="active-nav"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkj" ><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark" data-feather-bg="brown1-fade-light"></i><span>TKJ</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tfl"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>TFL</span></a>
         </div>
 
         <div class="page-content">
 
             <div class="page-title page-title-small">
-                <h2><a href="{{ url('/home') }}" data-back-button><i class="fa fa-arrow-left"></i></a>Profile 1</h2>
+                <h2><a href="{{ url('/home') }}" data-back-button><i class="fa fa-arrow-left"></i></a>Hallo {{$_GET['kelas']}} </h2>
                 <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img"
                     data-src="{{ url('/azure') }}/images/avatars/5s.png"></a>
             </div>
@@ -86,7 +77,7 @@
                 data-card-height="55vh">
                 <div class="card-bottom ml-3">
 
-                    <p class="pb-0 mb-0 font-12"><i class="fa fa-map-marker mr-2"></i>{{ $data->kode_ruangan }}</p>
+                <h1 class="font-40 line-height-xl">{{ $data->kelas }}</h1>
                     <p>
                         KETERANGAN BANGUNAN
                     </p>

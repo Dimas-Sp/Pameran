@@ -38,22 +38,12 @@
             <a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
         </div>
         <div id="footer-bar" class="footer-bar-5">
-            <a href="{{ url('azure') }}/index-components.html"><i data-feather="heart" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="red2-dark"
-                    data-feather-bg="red2-fade-light"></i><span>Features</span></a>
-            <a href="{{ url('azure') }}/index-media.html"><i data-feather="image" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="green1-dark"
-                    data-feather-bg="green1-fade-light"></i><span>Media</span></a>
-            <a href="{{ url('azure') }}/index.html"><i data-feather="home" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
-            <a href="{{ url('azure') }}/index-pages.html" class="active-nav"><i data-feather="file"
-                    data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark"
-                    data-feather-bg="brown1-fade-light"></i><span>Pages</span></a>
-            <a href="{{ url('azure') }}/index-settings.html"><i data-feather="settings" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="gray2-dark"
-                    data-feather-bg="gray2-fade-light"></i><span>Settings</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=rpl"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>RPL</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkr"><i data-feather="image" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>TKR</span></a>
+            <a href="{{url('/')}}/home" class="active-nav"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkj" ><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark" data-feather-bg="brown1-fade-light"></i><span>TKJ</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tfl"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>TFL</span></a>
         </div>
-
         <div class="page-content">
 
             <div class="page-title page-title-large">
@@ -64,11 +54,11 @@
             <div class="card header-card shape-rounded" data-card-height="180">
                 <div class="card-overlay bg-highlight opacity-95"></div>
                 <div class="card-overlay dark-mode-tint"></div>
-                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+                <div class="card-bg preload-img" data-src="{{ url('azure') }}/images/pictures/20s.jpg"></div>
             </div>
 
 
-            <a href="{{ url('/') }}/table?kelas=XII%20RPL%201" class="card card-style mb-3 d-flex"
+            <a href="{{ url('/jad?kelas=XII RPL 1') }}" class="card card-style mb-3 d-flex"
                 data-card-height="100">
                 <div class="d-flex justify-content-between">
                     <div class="pl-3 ml-1 align-self-center">
@@ -85,7 +75,7 @@
                 </div>
             </a>
 
-            <a href="{{ url('azure') }}/index-components.html" class="card card-style mb-3 d-flex"
+            <a href="{{ url('') }}/jad?kelas=XII RPL 2" class="card card-style mb-3 d-flex"
                 data-card-height="100">
                 <div class="d-flex justify-content-between">
                     <div class="pl-3 ml-1 align-self-center">
@@ -103,7 +93,7 @@
             </a>
 
             <!-- footer and footer card-->
-            <div class="footer" data-menu-load="{{ url('azure') }}/menu-footer.html"></div>
+            <!-- <div class="footer" data-menu-load="{{ url('azure') }}/menu-footer.html"></div> -->
         </div>
         <!-- end of page content-->
 

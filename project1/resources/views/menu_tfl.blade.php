@@ -38,17 +38,11 @@
             <a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
         </div>
         <div id="footer-bar" class="footer-bar-5">
-            <a href="index-components.html"><i data-feather="heart" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Features</span></a>
-            <a href="index-media.html"><i data-feather="image" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Media</span></a>
-            <a href="index.html"><i data-feather="home" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
-            <a href="index-pages.html" class="active-nav"><i data-feather="file" data-feather-line="1"
-                    data-feather-size="21" data-feather-color="brown1-dark"
-                    data-feather-bg="brown1-fade-light"></i><span>Pages</span></a>
-            <a href="index-settings.html"><i data-feather="settings" data-feather-line="1" data-feather-size="21"
-                    data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Settings</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=rpl"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>RPL</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkr"><i data-feather="image" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>TKR</span></a>
+            <a href="{{url('/')}}/home" class="active-nav"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tkj" ><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark" data-feather-bg="brown1-fade-light"></i><span>TKJ</span></a>
+            <a href="{{url('/')}}/menu?kejuruan=tfl"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>TFL</span></a>
         </div>
 
         <div class="page-content">
@@ -130,7 +124,7 @@
             </a>
 
             <!-- footer and footer card-->
-            <div class="footer" data-menu-load="menu-footer.html"></div>
+            <!-- <div class="footer" data-menu-load="menu-footer.html"></div> -->
         </div>
         <!-- end of page content-->
 
