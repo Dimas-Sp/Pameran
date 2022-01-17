@@ -36,6 +36,10 @@ Route::get('/gur_agama', function () {
     return view('guru_agama');
 });
 
+Route::get('/gur_math', function () {
+    return view('guru_matematika');
+});
+
 Route::get('/jad', function () {
     date_default_timezone_set("Asia/Jakarta");
     $_GET['day'] = date('D');
@@ -75,15 +79,16 @@ Route::get('/magur', function (){
     $_GET['day'] = date('D');
     // dd($_GET['day']);
     $_GET['jam'] = date('H:i');
-    if (!empty($_GET['kelas'])) {
+    if (!empty($_GET['nama_guru'])) {
         if (!empty($_GET['jam'])) {
             $users = DB::table('kelas')
+                ->select('guru.nama_guru', 'guru.kode_ruangan', 'guru.img', 'kelas.*', 'mapel.*')
                 ->join('guru', 'kelas.id_guru', '=', 'guru.id_guru')
                 ->join('mapel', 'kelas.id_mapel', '=', 'mapel.id_mapel')
-                ->where('kelas', $_GET['kelas'])
-                ->where('jam_masuk', '<=', $_GET['jam'])
-                ->where('jam_keluar', '>=', $_GET['jam'])
-                ->where('day', '=', $_GET['day'])
+                ->where('nama_guru', $_GET['nama_guru'])
+                ->where('jam_masuk', '<=', '12:30')
+                ->where('jam_keluar', '>=', '13:30')
+                ->where('day', '=', 'Tue')
                 ->first();
                 if (empty($users )) {
                     return back();

@@ -48,7 +48,7 @@
         <div class="page-content">
 
             <div class="page-title page-title-small">
-                <h2><a href="{{ url('/home') }}" data-back-button><i class="fa fa-arrow-left"></i></a>Hallo {{$_GET['kelas']}} </h2>
+                <h2><a href="{{ url('/home') }}" data-back-button><i class="fa fa-arrow-left"></i></a>Hallo {{$_GET['nama_guru']}} </h2>
                 <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img"
                     data-src="{{ url('/azure') }}/images/avatars/5s.png"></a>
             </div>
@@ -79,7 +79,7 @@
 
                 <h1 class="font-40 line-height-xl">{{ $data->kelas }}</h1>
                     <p>
-                        KETERANGAN BANGUNAN
+                        Ruangan Mengajar : {{ $data->kode_ruangan }}
                     </p>
                 </div>
                 <div class="card-overlay bg-gradient-fade"></div>

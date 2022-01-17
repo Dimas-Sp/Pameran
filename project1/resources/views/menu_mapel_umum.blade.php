@@ -75,6 +75,25 @@
                 </div>
             </a>
 
+            <a href="{{ url('/gur_math') }}" class="card card-style mb-3 d-flex"
+                data-card-height="100">
+                <div class="d-flex justify-content-between">
+                    <div class="pl-3 ml-1 align-self-center">
+                        <h4 class="font-600 mb-0 pt-4">Matematika</h4>
+                        <p class="color-highlight mt-n1 font-11">
+                            Where everything starts
+                        </p>
+                    </div>
+                    <div class="pr-3 align-self-center">
+                        <i data-feather="percent" data-feather-line="1" data-feather-size="45"
+                            data-feather-color="green1-dark" data-feather-bg="green1-fade-light">
+                        </i>
+                    </div>
+                </div>
+            </a>
+
+
+
             <!-- footer and footer card-->
             <!-- <div class="footer" data-menu-load="{{ url('azure') }}/menu-footer.html"></div> -->
         </div>

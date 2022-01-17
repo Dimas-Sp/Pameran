@@ -60,7 +60,7 @@
                         <div class="d-flex">
                             <div><img src="{{ url('azure') }}/images/avatars/1s.png" class="mr-3 rounded-circle shadow-l bg-red2-dark" width="50"></div>
                             <div>
-                                <h5 class="mt-1 mb-0">Dikri Maulana, S.Ag</h5>
+                                <h5 class="mt-1 mb-0">Saefudin, S.Ag</h5>
                                 <p class="font-10 mt-n1 color-red2-dark">Detail Pelajaran</p>
                             </div>
                             <div class="ml-auto"><span class="next-slide-user badge bg-red2-dark mt-2 p-2 font-8">TAP FOR MORE</span></div>
@@ -69,7 +69,7 @@
                     <div class="user-right">
                         <div class="d-flex">
                             <div>
-                                <h5 class="mt-1 mb-0">Dikri Maulana, S.Ag</h5>
+                                <h5 class="mt-1 mb-0">Saefudin, S.Ag</h5>
                                 <p class="font-10 mt-n1 color-red2-dark">Detail Pelajaran</p>
                             </div>
                             <div class="ml-auto">
@@ -86,7 +86,7 @@
                         <div class="d-flex">
                             <div><img src="{{ url('azure') }}/images/avatars/2s.png" class="bg-green1-dark mr-3 rounded-circle shadow-l" width="50"></div>
                             <div>
-                                <h5 class="mt-1 mb-0">Syamsul Budiman, S.Pd</h5>
+                                <h5 class="mt-1 mb-0">Jajang Kurnia, S.Pd</h5>
                                 <p class="font-10 mt-n1 color-green1-dark">Support Team Manager</p>
                             </div>
                             <div class="ml-auto"><span class="next-slide-user badge bg-green1-dark mt-2 p-2 font-8">TAP FOR MORE</span></div>
@@ -95,13 +95,11 @@
                     <div class="user-right">
                         <div class="d-flex">
                             <div>
-                                <h5 class="mt-1 mb-0">Alexander Mac</h5>
+                                <h5 class="mt-1 mb-0">Jajang Kurnia, S.Pd</h5>
                                 <p class="font-10 mt-n1 color-green1-dark">Support Team Manager</p>
                             </div>
                             <div class="ml-auto">
-                                <a href="#" class="icon icon-xs rounded-circle shadow-l bg-phone"><i class="fa fa-phone"></i></a>
-                                <a href="#" class="icon icon-xs rounded-circle shadow-l bg-facebook mr-2 ml-2"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="icon icon-xs rounded-circle shadow-l bg-twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="{{ url('/magur?nama_guru=Jajang Kurnia, S.Pd') }}" class="icon icon-xs rounded-circle shadow-l bg-phone"><i class="fa fa-phone"></i></a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +113,7 @@
                         <div class="d-flex">
                             <div><img src="{{ url('azure') }}/images/avatars/5s.png" class="bg-yellow1-dark mr-3 rounded-circle shadow-l" width="50"></div>
                             <div>
-                                <h5 class="mt-1 mb-0">M. Zaini Miftah, S.Ag</h5>
+                                <h5 class="mt-1 mb-0">Sri Haryani, S.Pd </h5>
                                 <p class="font-10 mt-n1 color-blue2-dark">Executive Officer</p>
                             </div>
                             <div class="ml-auto"><span class="next-slide-user badge bg-blue2-dark mt-2 p-2 font-8">TAP FOR MORE</span></div>
@@ -124,7 +122,7 @@
                     <div class="user-right">
                         <div class="d-flex">
                             <div>
-                                <h5 class="mt-1 mb-0">Johnatan Doe</h5>
+                                <h5 class="mt-1 mb-0">Sri Haryani, S.Pd </h5>
                                 <p class="font-10 mt-n1 color-blue2-dark">Executive Officer</p>
                             </div>
                             <div class="ml-auto">
@@ -143,7 +141,7 @@
                         <div class="d-flex">
                             <div><img src="{{ url('azure') }}/images/avatars/7s.png" class="bg-red2-dark mr-3 rounded-circle shadow-l" width="50"></div>
                             <div>
-                                <h5 class="mt-1 mb-0">Komariah, S.Ag</h5>
+                                <h5 class="mt-1 mb-0">Tri Wahyono, S.Pd</h5>
                                 <p class="font-10 mt-n1 color-gray2-dark">Back End Developer</p>
                             </div>
                             <div class="ml-auto"><span class="next-slide-user badge bg-blue2-dark mt-2 p-2 font-8">TAP FOR MORE</span></div>
@@ -152,7 +150,7 @@
                     <div class="user-right">
                         <div class="d-flex">
                             <div>
-                                <h5 class="mt-1 mb-0">Vincent Mobi</h5>
+                                <h5 class="mt-1 mb-0">Tri Wahyono, S.Pd</h5>
                                 <p class="font-10 mt-n1 color-gray2-dark">Back End Developer</p>
                             </div>
                             <div class="ml-auto">
